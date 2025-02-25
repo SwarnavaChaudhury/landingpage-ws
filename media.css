@@ -1,0 +1,301 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+
+    .hdr {
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+
+    .hero-sctn-dtls {
+        width: 90%;
+        flex-direction: column;
+        margin: 5px auto;
+    }
+
+    .hero-left h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .hero-left span {
+        font-size: 38px;
+        background-position-y: 25px;
+    }
+
+    .hero-left p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .hero-left ul li {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .hero-btn-grp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .book-demo {
+        margin-bottom: 15px;
+        margin-right: 0px;
+    }
+
+    .download-curriculum {
+        margin-bottom: 50px;
+    }
+
+    .contact-circle {
+        height: 350px;
+        width: 350px;
+        margin-bottom: 50px;
+    }
+
+    .contact-box {
+        width: 280px;
+        padding: 20px;
+    }
+
+    .contact-box form h1 {
+        margin-bottom: 0px;
+    }
+
+    .contact-box form label {
+        margin-bottom: 3px;
+    }
+
+    .contact-box form input {
+        margin-bottom: 5px;
+    }
+
+    .hero-counter-sctn {
+        flex-direction: row;
+        max-width: 90%;
+        flex-wrap: wrap;
+
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .stud-trained {
+        flex-basis: 40%;
+        /* border: 1px solid red; */
+        padding-left: 0px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .key-highlight-sctn>h1 {
+        font-size: 30px;
+    }
+
+    .key-highlight-sctn>p {
+        font-size: 15px;
+    }
+
+    .hl-points {
+        flex-basis: 100%
+    }
+
+    .hl-point-content h2 {
+        font-size: 20px;
+    }
+
+    .top-career-optn-sctn>h1 {
+        font-size: 30px;
+    }
+
+    .top-career-optn-sctn>p {
+        font-size: 15px;
+    }
+
+    .career-optn-group {
+        flex-direction: column;
+    }
+
+    .get-certified-sctn {
+        flex-direction: column;
+    }
+
+    /* .get-certified-content {
+        flex-basis: 100%;
+        border: 1px solid red;
+    } */
+
+    .certificate-point-grp {
+        padding-right: 0px;
+    }
+
+    .crtificate-symbol {
+        height: auto;
+        width: auto;
+        padding: 15px;
+    }
+
+    .book-free-cls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .certificate-sample {
+        /* flex-basis: 100%; */
+        width: 100%;
+        height: auto;
+        /* border: 1px solid red; */
+        position: relative;
+    }
+
+    .certificate-sample-copy {
+        margin-top: 50px;
+        margin-left: 0px;
+        position: relative;
+        height: 480px;
+    }
+
+    .dotted-img {
+        position: absolute;
+        top: -10px;
+        left: -20px;
+    }
+
+    .certificate-cpy {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        height: 400px;
+    }
+
+    .certificate-circle {
+        position: absolute;
+        bottom: 0px;
+        right: -10px;
+    }
+
+    .course-curriculum-sctn>h1 {
+        font-size: 30px;
+    }
+
+    .course-curriculum-sctn>p {
+        font-size: 15px;
+    }
+
+    .course-curriculum-hdr {
+        max-width: 100%;
+        /* border: 1px solid red; */
+        /* overflow: hidden; */
+        overflow-x: auto;
+    }
+
+    .course-curriculum-hdr ul {
+        gap: 15px;
+    }
+
+    .course-curriculum-hdr ul li {
+        text-align: center;
+    }
+
+    .course-curriculum-dtls {
+        flex-direction: column;
+    }
+
+    .course-curriculum-dtls-left ul li,
+    .course-curriculum-dtls-right ul li {
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    .why-digital-marketing-section>h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .why-digital-marketing-section>p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .why-learn-grp {
+        flex-direction: column;
+    }
+
+    .stud-testimonial-sctn>h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .stud-testimonial-sctn>p {
+        font-size: 15px;
+    }
+
+    .stud-testimonial-grp {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .ready-to-start-first-img {
+        display: none;
+    }
+
+    .ready-to-start-second-img {
+        display: none;
+    }
+
+    .ready-to-start-content {
+        padding: 35px;
+    }
+
+    .ready-to-start-content>h1 {
+        font-size: 30px;
+    }
+
+    .ready-to-start-content>p {
+        font-size: 15px;
+    }
+
+    .course-faq-sctn {
+        max-width: 80%;
+    }
+
+    .course-faq-sctn>h1 {
+        font-size: 30px;
+    }
+
+    .course-faq-sctn>p {
+        font-size: 15px;
+    }
+
+    .faq-question>h2 {
+        font-size: 18px;
+    }
+
+    .faq-question>button {
+        top: 15px;
+        right: 15px;
+    }
+
+    .top-company-hiring-sctn {
+        width: 80%;
+    }
+
+    .top-company-hiring-sctn>h1 {
+        font-size: 28px;
+    }
+
+    .company-logo {
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .site-ftr {
+        max-width: 80%;
+    }
+    .site-ftr1 {
+        max-width: 80%;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {}
