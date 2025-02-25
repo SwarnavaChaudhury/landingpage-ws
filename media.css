@@ -296,6 +296,15 @@
         max-width: 80%;
     }
 
+    .right-hdr {
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+
 }
 
 @media only screen and (min-width: 576px) and (max-width: 991px) {}
